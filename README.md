@@ -17,3 +17,12 @@ A Radial Basis Function is a real-valued function, the value of which depends on
 ### Reflextional-Switch-Activation Function (RSWAF):-
 Uses function which have reflextionary symmetry, allows us to retain performance while reducing computation time.
 * $b_{i}(u) = 1 - (tanh(\frac{u - u_{i}}{h}))^{2}$
+
+## About the model :-
+Trained 2 Faster-KAN models with hidden layer sizes as mentioned below, both the models acheived approaximately the same accuracy and final loss, with smaller model being better in the terms of speed capable of executing 45 (approx) iterations/sec. and larger model executing 13 iterations/sec.
+
+* Input Dimension : 11
+* Hidden Layer Size (Original) : 100
+* Hidden Layer Size (Small) : 21
+* Training Accuracy : 100%
+* Validation Accuracy : 99.3%
